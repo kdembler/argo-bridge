@@ -96,6 +96,37 @@ const _EVM_NETWORKS = {
       threshold: 5,
     },
   },
+  baseSepoliaDev: {
+    name: "Base Sepolia Dev",
+    chainId: 84532,
+    archiveName: "base-sepolia",
+    rpc: {
+      url: "https://rpc.ankr.com/base_sepolia/6d76d0ad0efdf7913347e739da8b5b349223e2dd8d6d3a385e16bdf8b9bc7390",
+      rateLimit: 30,
+    },
+    startBlock: 13_291_000,
+    contracts: {
+      erc20: "0x1cC8d4095cF2ebE3c5006F890e4707fB85BB6E38",
+      bridge: "0x460655A43e1F88f9A75FAD93339115BAAb24bd2b",
+      timelock: "0x88a431Dc5ff61243Cc3d581Dd1aBEc8AE4bc30CA",
+    },
+    opMulti: {
+      address: "0x82B617A3D6b049c83292Db6A4B0eABD38072f33c",
+      signers: [
+        "0x35B11A48bE1840e1aB2918b113B872B97FCb1eaA",
+        "0x5a8f5ee896d5bb15C8916cA744dBF9bCDDa63413",
+      ],
+      threshold: 2,
+    },
+    adminMulti: {
+      address: "0x883f4ae943116A5724f79B142Cd8aF1d6205EC5e",
+      signers: [
+        "0x35B11A48bE1840e1aB2918b113B872B97FCb1eaA",
+        "0x5a8f5ee896d5bb15C8916cA744dBF9bCDDa63413",
+      ],
+      threshold: 2,
+    },
+  },
   hardhat: {
     name: "Hardhat",
     chainId: 31337,
