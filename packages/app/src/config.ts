@@ -18,7 +18,7 @@ export const WC_METADATA = {
 }
 
 export const EVM_NETWORK = EVM_NETWORKS.baseSepolia
-export const JOY_NETWORK = JOY_NETWORKS.petra
+export const JOY_NETWORK = JOY_NETWORKS.mainnet
 export const BRIDGE_ADDRESS = EVM_NETWORK.contracts.bridge
 export const TIMELOCK_ADDRESS = EVM_NETWORK.contracts.timelock
 export const ERC20_ADDRESS = EVM_NETWORK.contracts.erc20
