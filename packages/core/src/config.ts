@@ -151,6 +151,19 @@ const _JOY_NETWORKS = {
       url: "wss://rpc.joystream.org",
       rateLimit: 500,
     },
+    opMulti: {
+      address: "j4VoG7QVXPKuej7zrd6RqMhokCbJbUCwPCqTvW8paNbZS4fMp",
+      signers: [
+        "j4Rk5azus8jsXdjR8e33d5egofwdFVk7Zu26zJeBwQ7LU3LDB",
+        "j4RxMioxyQsFbcUQJC6sh11jPcK3vWqfG4vGin2fWasJcMzrr",
+        "j4SdgoBiMDL1aMuNfdUk5P4zzjoqmMJg3wZqQzLhkdRUyPEd7",
+        "j4UpsPBehB8My5HT5jG5F6cwDyRn7AABV61k8Z1aFTtcRMEMy",
+        "j4VtgDn3jPp5YidVVYnASMsUfE3E5dHqJc4gd6t6cDgdRGWAs",
+        "j4WAERyuNQPnEgeDPf6QzeRsPLpM9GG4K7VWoQhNsd5i5eUQ3",
+        "j4WdPywNvexfJH7wyfjRTVJ8dVT9mjDEdHoA57a2kCSngvtf2",
+      ],
+      threshold: 4,
+    },
   },
   local: {
     name: "Joystream Local",
